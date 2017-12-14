@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+@import url('https://fonts.googleapis.com/css?family=Bangers|Lato');
+
+body {
+	font-family: 'Lato', sans-serif;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 2px;
+	font-size: 48px;
+	color: #e74c3c;
+	margin-left: 65px;
+}
+
+h2 {
+	color: #ecf0f1;
+}
+
+ul {
+	display: flex;
+	flex-wrap: wrap;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	background-color: #16a085;
+	margin: 10px;
+	padding: 15px;
+	border-radius: 16px;
+	width: 330px;
+}
+
+.movie-instance {
+	width: 300px;
+	display: flex;
+	align-items: flex-start;
+	padding: 15px;
+	background-color: #1abc9c;
+	border-radius: 10px;
+}
+
+.poster {
+	width: 150px;
+	order: -1;
+	margin-right: 10px;
+}
+
+.movie-desc {
+	margin: 0;
+}
